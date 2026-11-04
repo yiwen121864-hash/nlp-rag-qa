@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# 大文件：模型权重、向量库、课件 PDF、缓存
+_cache/
+models/
+data/
+*.safetensors
+*.pt
+*.pkl
+
+# 系统
+.DS_Store
+Thumbs.db
